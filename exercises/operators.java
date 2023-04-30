@@ -1,4 +1,5 @@
 package exercises;
+import java.util.Scanner;
 
 public class operators {
   public static void main(String[] args) {
