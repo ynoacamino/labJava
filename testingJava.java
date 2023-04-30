@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Scanner;
+import java.util.ArrayList;
 //Esto no hace absolutamente nada
 public class testingJava {
   public static void main(String[] args) {
@@ -77,9 +78,20 @@ public class testingJava {
     }
     consoleLog("Termino el dia, son las: 23:59:59");
 
-    */
-    consoleLog(mayorNums(1, 2, 3, 4));
     
+    consoleLog(mayorNums(1, 2, 3, 4));
+    System.out.println();;
+  */
+
+    ArrayList<String> myArray = new ArrayList<String>();
+
+    myArray.add("3");
+    myArray.add("2");
+    myArray.add("1");
+    
+    myArray.forEach(x -> consoleLog(x));
+    
+
   }
   public static int mayorNums(int num1, int num2, int num3, int num4) {
     int arrayArg[] = {num1, num2, num3, num4};
