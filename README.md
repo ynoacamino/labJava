@@ -46,4 +46,58 @@ A mi no me gusta esta manera, ya que aun no me constumbro. Que solucion encontre
 3. Que se llame `consoleLog`
 4. Por ultimo definimos y le decimos que tipo de dato aceptara como argumento `(String imp)`, es nuestro caso, el tipo sera un `String` y el nombre sera `imp`
 
-# Cuando tenga mas tiempo continuo
+## Metodos utiles para los ArrayList
+
+`public int size()`
+
+Retorna el número de elementos en la lista.
+
+`public void add(int index, E elem)`
+
+Inserta el elem en la posición index indicada. Desplazando los elementos originales a posiciones mayores.
+
+`public void clear()`
+
+Borra todos los elementos del ArrayList.
+
+`public int indexOf (E elem)`
+
+Busca la primera ocurrencia del parámetro elem dentro del ArrayList. Si lo encuentra retorna la posición correspondiente dónde lo encontró, si no devuelve -1.
+
+`public boolean isEmpty()`
+
+Retorna true si la lista no contiene elementos.
+
+`public E remove (int index)`
+
+Quita el elemento ubicado en la posición indicada index, desplaza todos los elementos con indice mayor a posiciones menores, además retorna el elemento borrado (elemento que puede ser capturado en variable o no).
+
+`public boolean contains (E elem)`
+
+Retorna true si la lista contiene al parámetro elem.
+
+`public int lastIndexOf (E elem)`
+
+Busca la última ocurrencia del parámetro elem dentro del ArrayList. Si lo encuentra retorna la posición correspondiente dónde lo encontró, si no devuelve -1.
+
+## Usar tipos primitivos en ArrayList
+
+De primer si intentamos hacer esto:
+
+`Arraylist<int> myArrayList = new ArrayList<int>()`
+
+Nos saltara error ya que no acepta tipos primitivos, por lo que tenemos que pasarle como parametro lo siguiente, dependiendo que tipo de datos queremos que almacene.
+
+| Tipo primitivo | Wrapper Class |
+|----------|----------|
+| int      | Integer  |
+| double   | Double   |
+| char     | Character|
+| boolean  | Boolean  |
+
+Arreglando el erro anterior el codigo quedaria de la siguiente manera
+
+`Arraylist<Integer> myArrayList = new ArrayList<Integer>()`
+
+
+# Cuando tenga mas tiempo, continuo
