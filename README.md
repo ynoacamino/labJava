@@ -100,4 +100,33 @@ Arreglando el erro anterior el codigo quedaria de la siguiente manera
 `Arraylist<Integer> myArrayList = new ArrayList<Integer>()`
 
 
+## Declarar clases y sus constructores
+Usamos las clases como moldes para los objetos, estas normalmente se encuentran en carpetas apartes a las cuales se les llama `package`, debio a esto en la primera linea tenemos que definir de la siguiente manera:
+
+`package nombreDeLaCarpeta;`
+
+Luego declaramos la clase y su acceso publico:
+
+`public class className { }`
+
+De esta manera ya podemos comenzar a declarar los valores que tendran nuestras variables, es muy importante que estas tenga un dominio `privated`, de la siguiente manera:
+
+    private int old;
+    private String name;
+    private String lastName;
+
+Procedemos a declarar un constructor, en caso de no declarar uno java crea el suyo, este se declara como un metodo con el mismo nombre que la clase y pasandole los parametos iniciales, ademas de hacer uso de los metodos `set()` que ya debimos haber declarado:
+
+    public ClassName(int age, String name, String lastName) {
+      setName(name);
+      setLastName(lastname);
+      setAge(age);
+    }
+
+Es muy importante anteponer `public` ya que sino nos saldra el sigueinte error:
+
+    The constructor ClassName is not visible
+
+
+
 # Cuando tenga mas tiempo, continuo
