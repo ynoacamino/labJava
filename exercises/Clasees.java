@@ -35,4 +35,10 @@ public class Clasees {
   public void setLastName(String lastName) {
     this.lastName = lastName;
   }
+
+  public void showDates() {
+    System.out.println(getLastName());
+    System.out.println(getName());
+    System.out.println(getOld());
+  }
 }
