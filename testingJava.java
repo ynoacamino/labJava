@@ -4,8 +4,9 @@ import exercises.Clasees;
 public class testingJava {
 
   public static void main(String[] args) {
-    Clasees yo = new Clasees(12, "Yenaro", "Noa");
+    Clasees yo = new Clasees(17, "Yenaro", "Noa");
     consoleLog(yo.getName());
+    yo.showDates(); 
   }
   //ConsoleLog in Java :b
   public static void consoleLog(String imp) {
