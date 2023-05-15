@@ -1,6 +1,6 @@
 // Noa Camino Yenaro Joel
 // Programa 2
-// Imprime el area de un triangulo
+// ingresa un nombre completo y devuelve un monograma
 
 package tareas;
 import java.util.Scanner;
@@ -8,14 +8,21 @@ import java.util.Scanner;
 public class Programa2 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    double height, base, area;
+    String name,ap1, ap2;
 
-    base = sc.nextDouble();
-    height = sc.nextDouble();
+    name = sc.next();
+    ap1 = sc.next();
+    ap2 = sc.next();
     sc.close();
 
-    area = base*height/2;
+    String first, second, third;
 
-    System.out.println("El area es: " + area);
+    first = name.substring(0, 1);
+    second = ap1.substring(0, 1);
+    third = ap2.substring(0, 1);
+
+    System.out.println(first + second + third);
   }
 }
+
+
