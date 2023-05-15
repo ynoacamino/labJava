@@ -1,23 +1,26 @@
 // Noa Camino Yenaro Joel
-// Programa 4
-// Imprime el promedio de 5 notas
+// Programa 5
+// ingresa un nombre completo y devuelve un monograma
 
 package tareas;
-import java.util.Scanner;
+import javax.swing.*;
 
 public class Programa5 {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    double capital, interes, monto;
+    String name;
+    name = JOptionPane.showInputDialog(null, "What is your full name");
 
-    capital = sc.nextDouble();
-    interes = capital*0.02;
+    int lrg = name.length();
 
-    sc.close();
+    String first, second, third;
 
-    monto = capital + interes;
+    first = name.substring(0, 1);
+    name = name.substring(name.indexOf(" ") +1, lrg);
+    second = name.substring(0, 1);
+    third = name.substring(name.indexOf(" ")+1, name.indexOf(" ")+2);
 
-    System.out.println("Interes: " + interes);
-    System.out.println("Monto final: " + monto);
+    JOptionPane.showMessageDialog(null, first + second + third);
   }
 }
+
+
