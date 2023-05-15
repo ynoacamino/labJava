@@ -1,6 +1,6 @@
 // Noa Camino Yenaro Joel
 // Programa 4
-// Imprime el promedio de 5 notas
+// ingresa un nombre completo y devuelve un monograma
 
 package tareas;
 import java.util.Scanner;
@@ -8,17 +8,22 @@ import java.util.Scanner;
 public class Programa4 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    double nt1, nt2, nt3, nt4, nt5, average;
+    String name;
 
-    nt1 = sc.nextDouble();
-    nt2 = sc.nextDouble();
-    nt3 = sc.nextDouble();
-    nt4 = sc.nextDouble();
-    nt5 = sc.nextDouble();
+    name = sc.nextLine();
     sc.close();
 
-    average = (nt1+nt2+nt3+nt4+nt5)/5;
+    int lrg = name.length();
 
-    System.out.println("El promedio es: " + average);
+    String first, second, third;
+
+    first = name.substring(0, 1);
+    name = name.substring(name.indexOf(" ") +1, lrg);
+    second = name.substring(0, 1);
+    third = name.substring(name.indexOf(" ")+1, name.indexOf(" ")+2);
+
+    System.out.println(first + second + third);
   }
 }
+
+
