@@ -1,20 +1,26 @@
 // Noa Camino Yenaro Joel
 // Programa 3
-// Imprime la conversion de pulgadas a cm
+// ingresa un nombre completo y devuelve un monograma
 
 package tareas;
-import java.util.Scanner;
+import javax.swing.*;
 
 public class Programa3 {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    double inch, cm;
+    String name,ap1, ap2;
 
-    inch = sc.nextDouble();
-    sc.close();
+    name = JOptionPane.showInputDialog(null, "What is your name");
+    ap1 = JOptionPane.showInputDialog(null, "What is your first lastname");
+    ap2 = JOptionPane.showInputDialog(null, "What is your second lastname");
 
-    cm = inch*2.54;
+    String first, second, third;
 
-    System.out.println(inch + " pulgadas en cm es : " + cm);
+    first = name.substring(0, 1);
+    second = ap1.substring(0, 1);
+    third = ap2.substring(0, 1);
+
+    JOptionPane.showMessageDialog(null, first + second + third);
   }
 }
+
+
