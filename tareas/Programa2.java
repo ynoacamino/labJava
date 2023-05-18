@@ -10,9 +10,9 @@ public class Programa2 {
     Scanner sc = new Scanner(System.in);
     String name,ap1, ap2;
 
-    name = sc.next();
-    ap1 = sc.next();
-    ap2 = sc.next();
+    name = sc.nextLine();
+    ap1 = sc.nextLine();
+    ap2 = sc.nextLine();
     sc.close();
 
     String first, second, third;
