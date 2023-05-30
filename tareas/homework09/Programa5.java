@@ -9,6 +9,8 @@ class Programa5 {
     teo = sc.nextDouble();
     lab = sc.nextDouble();
 
+    sc.close();
+
     if(teo >= 11 && lab >= 11) {
       System.out.println("Aprueba");
       System.out.println((teo*75 + lab*25)/100);
@@ -22,3 +24,4 @@ class Programa5 {
     }
   }
 }
+
