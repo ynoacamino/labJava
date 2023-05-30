@@ -10,6 +10,8 @@ class Programa4 {
     tasa = sc.nextDouble()/100;
     interes = capital * tasa;
 
+    sc.close();
+
     if(interes > 200) {
       System.out.println("Si debes invertir");
       System.out.println("El monto final sera de: " + (capital + interes));
@@ -18,3 +20,4 @@ class Programa4 {
     }
   }
 }
+
