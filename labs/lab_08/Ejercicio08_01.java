@@ -11,6 +11,8 @@ class Ejercicio08_01 {
     System.out.print("Es fin de semana?: ");
     boolean goodDay = sc.nextBoolean();
 
+    sc.close();
+
     if(goodDay) {
       if(num >= 50) {
         System.out.println("Fue un buen dia");
