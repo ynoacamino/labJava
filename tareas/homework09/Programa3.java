@@ -1,3 +1,4 @@
+//imprime los operadores que den verdadero segun los dos numeros ingresados
 import java.util.*;
 
 class Programa3 {
