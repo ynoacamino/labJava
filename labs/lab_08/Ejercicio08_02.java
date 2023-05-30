@@ -7,6 +7,7 @@ class Ejercicio08_02 {
 
     int score_1 = sc.nextInt();
     int score_2 = sc.nextInt();
+    sc.close();
     String msg;
 
     if(score_1 >= 17 || score_2 >= 17) {
