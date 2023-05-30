@@ -1,3 +1,4 @@
+//Programa que resive 3 valores y determina si aprobaste
 import java.util.*;
 
 class Programa1 {
