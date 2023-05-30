@@ -9,6 +9,8 @@ class Programa3 {
     num1 = sc.nextInt();
     num2 = sc.nextInt();
 
+    sc.close();
+
     if(num1 == num2) {
       System.out.println(" = ");
       System.out.println(" <= ");
