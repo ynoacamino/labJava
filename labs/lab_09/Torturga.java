@@ -5,7 +5,7 @@ public class Torturga {
   public static void main(String[] args) {
     Turtle t1 = new Turtle();
     t1.speed(500);
-
+    
     Scanner sc = new Scanner(System.in);
 
     int poli = sc.nextInt();
