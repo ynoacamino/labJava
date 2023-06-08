@@ -8,7 +8,7 @@ public class Programa2 {
         int num = sc.nextInt();
         String cadena = adn.substring(0, num);
 
-        int repet = 0;
+        int repet = -1;
         int i = 0;
         while( i < adn.length() - num ){
             if( cadena.equals(adn.substring(i, i + num)) ) {
