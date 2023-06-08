@@ -12,7 +12,7 @@ public class Programa2 {
 
         int repet = -1;
         int i = 0;
-        while( i < adn.length() - num ){
+        while( i < adn.length() - num + 1 ){
             if( cadena.equals(adn.substring(i, i + num)) ) {
                 repet += 1;
             }
