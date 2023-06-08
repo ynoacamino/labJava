@@ -1,4 +1,3 @@
-package Problemas;
 import java.util.*;
 
 public class Programa2 {
