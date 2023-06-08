@@ -20,6 +20,9 @@ public class Problema1 {
             i += 1;
         }
 
+        System.out.println(como);
+        System.out.println(cual);
+
         if(cual == como) {
             System.out.println("Igual cantidad");
         }else{
