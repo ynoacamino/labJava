@@ -7,23 +7,20 @@ public class Problema1 {
         String cadena = sc.nextLine().toLowerCase();
 
         int i = 0;
-        int cual = 0;
-        int como = 0;
+        int numCual = 0;
+        int numComo = 0;
 
-        while(i < cadena.length() - 4){
+        while(i < cadena.length() - 3){
             if( "como".equals(cadena.substring(i, i + 4)) ){
-                como += 1;
+                numComo += 1;
             }
             if( "cual".equals(cadena.substring(i, i + 4)) ){
-                cual += 1;
+                numCual += 1;
             }
             i += 1;
         }
 
-        System.out.println(como);
-        System.out.println(cual);
-
-        if(cual == como) {
+        if(numCual == numComo) {
             System.out.println("Igual cantidad");
         }else{
             System.out.println("Distinta cantidad");
