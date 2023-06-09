@@ -1,7 +1,7 @@
 // NOA CAMINO, Yenaro Joel
 import java.util.*;
 
-class Ejercicio08_01 {
+public class Ejercicio08_01 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     
