@@ -1,4 +1,5 @@
 package tareas.homework12;
+//Mostrar un listado con los números del 1 a n elevados al cuadrado
 import java.util.*;
 
 public class Programa05_v2 {
@@ -13,3 +14,5 @@ public class Programa05_v2 {
     } while(i <= num);
   }
 }
+
+
