@@ -1,7 +1,7 @@
 //Programa que te dice si invertir o no
 import java.util.*;
 
-class Programa4 {
+public class Programa4 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 

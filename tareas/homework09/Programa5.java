@@ -1,7 +1,7 @@
 //Programa que dice si un estudiante apreba o no
 import java.util.*;
 
-class Programa5 {
+public class Programa5 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 

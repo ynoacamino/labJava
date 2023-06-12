@@ -1,7 +1,7 @@
 //imprime los operadores que den verdadero segun los dos numeros ingresados
 import java.util.*;
 
-class Programa3 {
+public class Programa3 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
