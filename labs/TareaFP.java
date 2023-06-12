@@ -1,4 +1,4 @@
-class TareaFP {
+ public class TareaFP {
   public static void main(String[] args) {
     System.out.println("hola");
   }
