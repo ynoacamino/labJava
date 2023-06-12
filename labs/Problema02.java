@@ -1,5 +1,5 @@
 import java.util.*;
-class Problema02{
+public class Problema02{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese la longitud de la cadena: ");
