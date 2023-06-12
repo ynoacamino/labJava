@@ -1,7 +1,7 @@
 //Programa que imprime si aprueba o no
 import java.util.*;
 
-class hw09_Programa01 {
+public class hw09_Programa01 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 

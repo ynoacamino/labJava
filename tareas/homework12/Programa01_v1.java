@@ -1,4 +1,5 @@
 package tareas.homework12;
+// Programa que muestra los n primeros númerosenteros no negativos
 import java.util.*;
 
 public class Programa01_v1 {
@@ -13,3 +14,5 @@ public class Programa01_v1 {
     }
   }
 }
+
+
