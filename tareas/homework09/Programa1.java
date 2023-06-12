@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Programa1 {
+public class Programa1 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 

@@ -1,7 +1,7 @@
 //Programa que imprime de manera asendente dos numeros ingresados
 import java.util.*;
 
-class Programa2 {
+public class Programa2 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
