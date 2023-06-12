@@ -1,4 +1,5 @@
 package tareas.homework12;
+//Imprime la tabla de multiplicar segun n agregado y un rango especificado
 import java.util.*;
 
 public class Programa02_v2 {
@@ -15,3 +16,5 @@ public class Programa02_v2 {
 
   }
 }
+
+
