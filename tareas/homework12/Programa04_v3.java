@@ -1,4 +1,5 @@
 package tareas.homework12;
+// Muestra un listado con los números del 1 a n
 import java.util.*;
 
 public class Programa04_v3 {
@@ -11,5 +12,9 @@ public class Programa04_v3 {
     for(int i = min; i <= max; i += 1) {
       sum += i;
     }
+
+    System.out.println(sum);
   }
 }
+
+

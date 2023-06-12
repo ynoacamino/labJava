@@ -1,4 +1,5 @@
 package tareas.homework12;
+// calcula la sumatoria de los números comprendidos en un rango dado
 import java.util.*;
 
 public class Programa04_v2 {
@@ -16,3 +17,4 @@ public class Programa04_v2 {
     System.out.println(sum);
   }
 }
+
