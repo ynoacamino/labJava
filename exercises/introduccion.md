@@ -102,3 +102,48 @@ Algoritmo Programa6
 	
 	Escribir "Bienvenido"
 FinAlgoritmo
+
+
+// tabla de multiplcia autoatica hasa el numero 12 ingresado por teclado
+
+Algoritmo Program8
+	Definir num Como Entero
+	Leer  num
+	Para i <- 1 Hasta 12
+		Escribir num, " * ", i, " = ", num * i 
+	FinPara
+FinAlgoritmo
+
+
+
+
+/ Que permita solicitar a un usuario una clave de acseso y que no le permita continuar hasta que introdusca la clave correcta 
+Algoritmo Programa6
+	Definir key Como Caracter
+	Definir  intentos Como Entero
+	Definir bucle, ingreso Como Logico
+	bucle <- falso
+	ingreso <- falso
+	intentos <- 3
+	Repetir
+		Escribir "Numero de intentos: ", intentos
+		Escribir "Inigresa la clave"
+		Leer  key
+		si (key = "UNSA" o key = "AQP" o key ="SIS") Entonces
+			bucle <- Verdadero
+			ingreso <- Verdadero
+		FinSi
+		intentos <- intentos -1 
+		si intentos < 1 Entonces
+			bucle <- true
+			Escribir "a"
+			ingreso <- Falso
+		FinSi
+	Hasta Que (bucle) 
+	
+	si ingreso Entonces
+		Escribir "Bienvenido"
+	SiNo
+		Escribir "No esta autorizado"
+	FinSi
+FinAlgoritmo
