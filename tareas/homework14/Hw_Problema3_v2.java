@@ -20,7 +20,7 @@ public class Hw_Problema3_v2 {
       int num = sc.nextInt();
       if(num <= max && num >= min) cicle = false;
     }
-
+    sc.close();
     System.out.println("Intentos: " + intentos);
   }
 }
