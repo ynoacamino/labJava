@@ -19,7 +19,7 @@ public class Hw_Problema3_v1 {
       int num = sc.nextInt();
       if(num <= max && num >= min) break;
     }
-
+    sc.close();
     System.out.println("Intentos: " + intentos);
   }
 }
