@@ -16,7 +16,7 @@ public class Hw_Problema4 {
       sum += nota;
       min = Math.min(min, nota);
     }
-
+    sc.close();
     System.out.println("Nota mas baja: " + min);
     System.out.println("Promedio: " + sum / n);
   }
