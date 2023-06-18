@@ -7,6 +7,7 @@ public class testingJava {
     Clasees yo = new Clasees(17, "Yenaro", "Noa");
     consoleLog(yo.getName());
     yo.showDates(); 
+    System.out.println("Hola mundo");
   }
   //ConsoleLog in Java :b
   public static void consoleLog(String imp) {
@@ -18,4 +19,6 @@ public class testingJava {
   public static void consoleLog(Boolean imp) {
     System.out.println(imp);
   }
+
 }
+
