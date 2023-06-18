@@ -46,6 +46,27 @@ A mi no me gusta esta manera, ya que aun no me constumbro. Que solucion encontre
 3. Que se llame `consoleLog`
 4. Por ultimo definimos y le decimos que tipo de dato aceptara como argumento `(String imp)`, es nuestro caso, el tipo sera un `String` y el nombre sera `imp`
 
+## Usar tipos primitivos en ArrayList
+
+De primer si intentamos hacer esto:
+
+`Arraylist<int> myArrayList = new ArrayList<int>()`
+
+Nos saltara error ya que no acepta tipos primitivos, por lo que tenemos que pasarle como parametro lo siguiente, dependiendo que tipo de datos queremos que almacene.
+
+| Tipo primitivo | Wrapper Class |
+|----------|----------|
+| int      | Integer  |
+| double   | Double   |
+| char     | Character|
+| boolean  | Boolean  |
+
+Arreglando el erro anterior el codigo quedaria de la siguiente manera
+
+`Arraylist<Integer> myArrayList = new ArrayList<Integer>()`
+
+
+
 ## Metodos utiles para los ArrayList
 
 `public int size()`
@@ -79,25 +100,6 @@ Retorna true si la lista contiene al parámetro elem.
 `public int lastIndexOf (E elem)`
 
 Busca la última ocurrencia del parámetro elem dentro del ArrayList. Si lo encuentra retorna la posición correspondiente dónde lo encontró, si no devuelve -1.
-
-## Usar tipos primitivos en ArrayList
-
-De primer si intentamos hacer esto:
-
-`Arraylist<int> myArrayList = new ArrayList<int>()`
-
-Nos saltara error ya que no acepta tipos primitivos, por lo que tenemos que pasarle como parametro lo siguiente, dependiendo que tipo de datos queremos que almacene.
-
-| Tipo primitivo | Wrapper Class |
-|----------|----------|
-| int      | Integer  |
-| double   | Double   |
-| char     | Character|
-| boolean  | Boolean  |
-
-Arreglando el erro anterior el codigo quedaria de la siguiente manera
-
-`Arraylist<Integer> myArrayList = new ArrayList<Integer>()`
 
 
 ## Declarar clases y sus constructores
