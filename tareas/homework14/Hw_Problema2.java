@@ -14,6 +14,7 @@ public class Hw_Problema2 {
       if( num > 0) positivos += 1;
       else negativos += 1;
     }
+    sc.close();
 
     System.out.println("Positivos: " + positivos);
     System.out.println("Negativos : " + negativos);
