@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Tokyo Night Light",
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
     "labs\\lab_09\\galapagos.jar"
