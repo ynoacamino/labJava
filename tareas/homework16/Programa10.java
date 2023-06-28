@@ -8,6 +8,7 @@ public class Programa10 {
     int n = sc.nextInt();
 
     for(int i = 0; i < n; i += 1) {
+      System.out.println("Ingrese la nota: ");
       int nota;
       do {
         nota = sc.nextInt();
