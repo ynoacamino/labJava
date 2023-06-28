@@ -5,7 +5,8 @@ public class Programa13 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
-    int favor = 0, contra = 0, noOpina = 0, num = 0;
+    int favor = 0, contra = 0, noOpina = 0;
+    double num = 0;
     
     while(true){
       System.out.println("Ingrese -1:En contra, 0:No opina, 1:A favor, 2:Para terminar");
