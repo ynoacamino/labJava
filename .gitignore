@@ -1,6 +1,6 @@
 # Compiled class file
 *.class
-
+graalvm-jdk-20.0.1+9.1
 # Log file
 *.log
 
