@@ -1,8 +1,14 @@
 {
-  "workbench.colorTheme": "Tokyo Night Light",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
     "labs\\lab_09\\galapagos.jar"
   ],
-  "java.debug.settings.onBuildFailureProceed": true
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-20",
+      "path": "c:\\Users\\ynoac\\OneDrive\\Documentos\\java\\labJava\\tareas\\concurso\\graalvm-jdk-20.0.1+9.1"
+    }
+  ]
 }
