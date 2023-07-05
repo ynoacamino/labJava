@@ -12,9 +12,17 @@ public class Programa5 {
         .alLado(cellBlack);
 
         Picture rowPeons = createPeons(10);
-        Picture rowPieces = Picture.torre().alLado(Picture.caballo()).alLado(Picture.alfil().alLado(Picture.rey()));
+        Picture rowPieces = Picture.torre()
+        .alLado(Picture.caballo())
+        .alLado(Picture.alfil())
+        .alLado(Picture.rey())
+        .alLado(Picture.dama())
+        .alLado(Picture.alfil())
+        .alLado(Picture.caballo())
+        .alLado(Picture.torre());
+        Picture cellAndPieces = rowPieces.superponer(rowTable1);
 
-        Graphics display = new Graphics(rowPieces);
+        Graphics display = new Graphics(cellAndPieces);
         display.print();
     }
 
@@ -24,3 +32,4 @@ public class Programa5 {
         return row;
     }
 }
+
