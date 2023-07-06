@@ -2,7 +2,8 @@
   "workbench.colorTheme": "One Dark Pro Darker",
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "labs\\lab_09\\galapagos.jar"
+    "labs\\lab_09\\galapagos.jar",
+    "labs\\graphicsClass\\tareaAjedresJava\\graphics.jar"
   ],
   "java.debug.settings.onBuildFailureProceed": true,
   "java.configuration.runtimes": [
