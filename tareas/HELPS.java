@@ -19,5 +19,11 @@ public class HELPS{
 
     System.out.println("El Monograma es "+tl+t2+t3);
   }
+  public String startOz(String str) {
+    if(str.equals("oz")) return "oz";
+    if(str.charAt(0) == 'o') return "o";
+    if(str.charAt(1) == 'z') return "z";
+    return str;
+  }
 }
 
