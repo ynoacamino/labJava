@@ -1,9 +1,10 @@
 {
-  "workbench.colorTheme": "Tokyo Night Light",
+  "workbench.colorTheme": "Nord",
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
     "labs\\lab_09\\galapagos.jar",
-    "labs\\graphicsClass\\tareaAjedresJava\\graphics.jar"
+    "labs\\graphicsClass\\tareaAjedresJava\\graphics.jar",
+    "labs\\episunsa.jar"
   ],
   "java.debug.settings.onBuildFailureProceed": true,
   "java.configuration.runtimes": [
