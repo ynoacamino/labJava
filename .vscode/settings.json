@@ -8,9 +8,5 @@
   ],
   "java.debug.settings.onBuildFailureProceed": true,
   "java.configuration.runtimes": [
-    {
-      "name": "JavaSE-20",
-      "path": "c:\\Users\\ynoac\\OneDrive\\Documentos\\java\\labJava\\tareas\\concurso\\graalvm-jdk-20.0.1+9.1"
-    }
   ]
 }
