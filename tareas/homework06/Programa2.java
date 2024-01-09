@@ -1,6 +1,5 @@
-// Noa Camino Yenaro Joel
-// Programa 2
-// ingresa un nombre completo y devuelve un monograma
+// Noa Camino Yenaro Joel Programa 2 ingresa un nombre completo y devuelve un monograma
+//
 
 package tareas.homework06;
 import java.util.Scanner;
@@ -12,7 +11,7 @@ public class Programa2 {
 
     name = sc.nextLine();
     ap1 = sc.nextLine();
-    ap2 = sc.nextLine();
+    ap2 sc.nextLine();
     sc.close();
 
     String first, second, third;

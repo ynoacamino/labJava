@@ -6,26 +6,26 @@ public class hw_Problema2 {
     Scanner sc = new Scanner(System.in);
     int num1 = sc.nextInt();
     int num2 = sc.nextInt();
-    int a;
-    int b;
+    int max;
+    int min;
 
     if(num1> num2 ) {
-      a = num1;
-      b = num2;
+      max = num1;
+      min = num2;
     } else {
-      b = num1;
-      a = num2;
+      min = num1;
+      max = num2;
     }
     int x;
     while(true) {
-      x = a % b;
+      x = max % min;
       if(x == 0) {
         break;
       }
-      a = b;
-      b = x;
+      max = min;
+      min = x;
     }
-    System.out.println(b);
+    System.out.println(min);
   }
 }
 
